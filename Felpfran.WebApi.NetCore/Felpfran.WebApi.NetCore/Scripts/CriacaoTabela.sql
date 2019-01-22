@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Clientes]
+(
+	[ID] BIGINT IDENTITY (1, 1) NOT NULL,
+	[Nome] NVARCHAR(300) NOT NULL,
+	[Email] NVARCHAR(200) NOT NULL,
+	[DataNascimento] DATETIME NULL,
+    CONSTRAINT [PK_Clientes] PRIMARY KEY ([ID])
+)
